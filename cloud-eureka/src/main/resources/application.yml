@@ -1,0 +1,13 @@
+server:
+  port: 7900
+spring:
+  application:
+    name: cloud-eureka
+eureka:
+  instance:
+    hostname: eureka-7900
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:7900/eureka/
