@@ -17,6 +17,7 @@
 
     <modules>
         <module>cloud-eureka</module>
+        <module>api-passenger</module>
     </modules>
 
 </project>
